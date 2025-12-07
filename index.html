@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>三维干旱识别与Copula风险评估平台</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f8f9fa; }
+        .hero-bg { background: linear-gradient(90deg, #1e3a8a 0%, #3b82f6 100%); color: white; }
+        .card { background: white; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); padding: 20px; margin-bottom: 20px; }
+        h2 { color: #1e3a8a; border-bottom: 2px solid #e5e7eb; padding-bottom: 10px; margin-bottom: 15px; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <nav class="bg-gray-800 text-white p-4 sticky top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-xl font-bold">3D-Drought & Copula Lab</h1>
+        </div>
+    </nav>
+    <header class="hero-bg py-20 text-center">
+        <h1 class="text-4xl font-bold mb-4">基于游程理论与Copula的三维干旱识别体系</h1>
+        <p class="text-xl opacity-90">Spatio-Temporal Drought Identification & Risk Assessment</p>
+    </header>
+    <div class="container mx-auto py-10 px-4">
+        <div class="card">
+            <h2 class="text-2xl">1. 研究框架</h2>
+            <p>① 数据输入 (SPI/SPEI) -> ② 三维时空识别 (3D Clustering) -> ③ Copula 联合概率评估</p>
+        </div>
+        <div class="card">
+            <h2 class="text-2xl">2. 核心方法</h2>
+            <p>利用改进的游程理论定义干旱，结合连通域标记算法提取三维干旱体；使用 Sklar 定理构建多变量联合分布。</p>
+        </div>
+        <div class="card">
+            <h2 class="text-2xl">3. 参考文献库</h2>
+            <ul class="list-disc ml-6">
+                <li>Yevjevich, V. (1967). An Objective Approach to Definitions...</li>
+                <li>Xu, K., et al. (2015). A new method for spatiotemporal drought...</li>
+                <li>Liu, Y., et al. (2019). Probabilistic assessment...</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
